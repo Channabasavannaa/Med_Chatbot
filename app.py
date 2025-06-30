@@ -34,10 +34,10 @@ retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":
 
 
 LLM = GoogleGenerativeAI(
-    model="gemini-2.0-flash",  # Specify the Gemini model version
+    model="gemini-2.0-flash",  
     temperature=0.1,
     max_output_tokens=500,
-    google_api_key="AIzaSyCJI015aYVfnOOmXNvVXPBZNovzPj6FVV4"  # Replace with your API key
+    google_api_key=""  
 )
 
 prompt = ChatPromptTemplate.from_messages(
