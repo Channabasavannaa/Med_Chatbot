@@ -23,7 +23,7 @@ os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 embeddings = embedding_model()
 
 
-index_name = "med-chatbot"
+index_name = "neetbot"
 
 # Embed each chunk and upsert the embeddings into your Pinecone index.
 docsearch = PineconeVectorStore.from_existing_index(
