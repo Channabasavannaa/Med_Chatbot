@@ -19,7 +19,7 @@ embeddings = embedding_model()
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
-index_name = "med-chatbot"
+index_name = "neetbot"
 
 
 if not pc.has_index(index_name):

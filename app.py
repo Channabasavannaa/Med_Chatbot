@@ -14,9 +14,10 @@ app = Flask(__name__)
 load_dotenv()
 
 PINECONE_API_KEY=os.environ.get('PINECONE_API_KEY')
-
+GOOGLE_API_KEY=os.environ.get('GOOGLE_API_KEY')
 
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
+os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 
 embeddings = embedding_model()
@@ -37,7 +38,8 @@ LLM = GoogleGenerativeAI(
     model="gemini-2.0-flash",  
     temperature=0.1,
     max_output_tokens=500,
-    google_api_key=""  
+    google_api_key= GOOGLE_API_KEY
+
 )
 
 prompt = ChatPromptTemplate.from_messages(
