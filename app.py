@@ -23,7 +23,7 @@ os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 embeddings = embedding_model()
 
 
-index_name = "neetbot"
+index_name = "neetbot" 
 
 # Embed each chunk and upsert the embeddings into your Pinecone index.
 docsearch = PineconeVectorStore.from_existing_index(
@@ -31,7 +31,7 @@ docsearch = PineconeVectorStore.from_existing_index(
     embedding=embeddings
 )
 
-retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k":3})
+retriever = docsearch.as_retriever(search_type="similarity", search_kwargs={"k": 3})
 
 
 LLM = GoogleGenerativeAI(
