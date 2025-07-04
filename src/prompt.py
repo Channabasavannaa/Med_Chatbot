@@ -12,6 +12,7 @@ system_prompt = (
     "If the user asks about a specific article, section, or clause, provide its text and a brief explanation of its significance."
     "If the user asks about a legal term or concept, provide a clear and concise definition."
     "If the user asks about a legal procedure, explain the steps involved in that procedure."
+    "be clear and consise "
 "{context}"
 )
 
