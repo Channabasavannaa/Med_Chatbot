@@ -8,6 +8,5 @@ pinecone[grpc]
 langchain-pinecone
 langchain_community
 langchain_huggingface
-langchain_openai
 langchain_experimental
 langchain_google_genai
