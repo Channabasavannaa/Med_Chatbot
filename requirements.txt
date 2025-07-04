@@ -1,12 +1,10 @@
 sentence-transformers==4.1.0
 langchain
 flask
-gunicorn
 pypdf
 python-dotenv
 pinecone[grpc]
 langchain-pinecone
 langchain_community
 langchain_huggingface
-langchain_experimental
 langchain_google_genai
