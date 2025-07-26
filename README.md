@@ -26,5 +26,8 @@
   <li>Google Gemini Flash LLM</li>
   <li>Pinecone DB</li>
 </ul>
+<hr>
+<h2>Visual Architecture</h2>
+<img src="./static/">
 
 
