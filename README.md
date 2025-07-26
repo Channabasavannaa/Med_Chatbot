@@ -28,6 +28,6 @@
 </ul>
 <hr>
 <h2>Visual Architecture</h2>
-<img src="./static/">
+<img src="./static/Screenshot 2025-07-26 120648.png">
 
 
