@@ -17,10 +17,14 @@
 </li>
 </ul>
 <hr>
-<h2>Tech-Stack and framworks</h2>
+<h2>Technologies and framworks</h2>
 <ul>
   <li>Python</li>
+  <li>Flask</li>
   <li>LangChain</li>
   <li>LangChain, Hugging Face</li>
+  <li>Google Gemini Flash LLM</li>
   <li>Pinecone DB</li>
 </ul>
+
+
